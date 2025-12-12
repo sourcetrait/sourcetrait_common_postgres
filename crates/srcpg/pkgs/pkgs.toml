@@ -1,0 +1,79 @@
+
+[pkg.deb.control]
+source_name = "srcpg"
+source_version = "0.0.1"
+package_name = "srcpg"
+architecture = "all"
+description = "Common PostgreSQL extension for Rust"
+homepage = "http://sourcetrait.com"
+maintainer_name = "SourceTrait"
+maintainer_email = "development@sourcetrait.com"
+priority = "optional"
+section = "misc"
+standards_version = "4.7.0"
+version = "0.0.1"
+build_depends = []
+depends = []
+
+[pkg.deb.copyright.header]
+format = ""
+license_spdx = "AGPL-3.0-or-later WITH GPL-3.0-linking-source-exception"
+source_url = "https://github.com/sourcetrait/sourcetrait_common_postgres"
+copyright_holders = [
+    { year: 2025, name: "SourceTrait", email: "development@sourcetrait.com" }
+]
+
+[[pkg.deb.copyright.files]]
+globs = ["*"]
+license_spdx = "AGPL-3.0-or-later WITH GPL-3.0-linking-source-exception"
+copyright_holders = [
+    { year: 2025, name: "SourceTrait", email: "development@sourcetrait.com" }
+]
+
+[[pkg.deb.copyright.license]]
+license_spdx = "AGPL-3.0-or-later WITH GPL-3.0-linking-source-exception"
+#license_name = ""
+text = ""
+
+
+[pkg.deb.changelog]
+package_name = "srcpg"
+binary_only = false
+closes_tickets: []
+summary = "Testing release"
+details = ""
+distributions = ["unreleased"]
+urgency = "low"
+deb_version = "0.0.1-1"
+maintainer_name = "SourceTrait"
+maintainer_email = "development@sourcetrait.com"
+date = ""
+
+[pkg.deb.rules]
+exec_shebang = "#!/usr/bin/make -f"
+exec_clean = []
+exec_build_noarch = []
+exec_build_arch = []
+exec_build = []
+exec_binary_noarch = []
+exec_binary_arch = []
+exec_binary = []
+
+[pkg.deb.source.format]
+format_name = "quilt"
+format_version = "3.0"
+
+[pgk.rpm.spec]
+package_name = "srcpg"
+version = "0.0.1"
+release = "1"
+summary = ""
+license_spdx = "AGPL-3.0-or-later WITH GPL-3.0-linking-source-exception"
+url = ""
+description = ""
+exec_prep = []
+exec_build = []
+exec_install []
+files = []
+changelog = []
+requires = []
