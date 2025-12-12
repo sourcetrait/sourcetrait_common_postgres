@@ -1,4 +1,4 @@
-SourceTrait PostgreSQL 
+SourceTrait Common PostgreSQL 
 ================================================================================
 [![License Badge]][License] [![Linkable Badge]][Linkable]
 
@@ -22,7 +22,7 @@ all copyright covering your contribution.
 
 License (AGPL3)
 --------------------------------------------------------------------------------
-SourceTrait PostgreSQL  
+SourceTrait Common PostgreSQL  
 Developed by [SourceTrait](https://sourcetrait.com), a division of **Asmov LLC**  
 Copyright (C) 2025 [Asmov LLC](https://asmov.software)  
 
