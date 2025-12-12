@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/srcpg",
+]
+
+[workspace.dependencies]
+pgrx = "=0.16.1"
+pgrx-tests = "=0.16.1"
+serde = { version = "1", features = ["derive"] }
+

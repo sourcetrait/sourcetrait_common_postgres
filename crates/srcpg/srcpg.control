@@ -1,0 +1,6 @@
+comment = 'srcpg:  SourceTrait Common PosgtreSQL Extension'
+default_version = '@CARGO_VERSION@'
+module_pathname = 'srcpg'
+relocatable = false
+superuser = true
+trusted = false
