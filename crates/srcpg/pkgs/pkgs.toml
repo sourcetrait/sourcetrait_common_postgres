@@ -1,3 +1,5 @@
+[pkgs.meta]
+version = "0.0.1"
 
 [pkg.deb.control]
 source_name = "srcpg"
